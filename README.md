@@ -1,1 +1,1 @@
-Página web en proceso. Incluye estructura básica en HTM y estilos en css.
+Página web en proceso. Incluye estructura básica en HTML y estilos en css.
