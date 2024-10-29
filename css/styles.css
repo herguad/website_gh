@@ -18,7 +18,12 @@ header{
 }
 
 body{
-
+grid-template-areas: "header"
+                    "main"
+                    "products"
+                    "footer";
+grid-template-rows:auto auto 4vh auto ;
+grid-template-columns: 1fr
 }
 
 h2{
