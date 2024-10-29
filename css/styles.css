@@ -1,21 +1,49 @@
 /*website_gh styles*/
 *{
-    margin:5px;
-    padding:10px;
-    border:5px;
-    background-color:rgb(248, 249, 209);
-    background-image: linear-gradient(to bottom, #4b4453, #5d5665, #6f6877, #827b8a, #958e9e, #a394aa, #b399b4, #c49ebd, #d994b5, #ed8aa3, #fa8288, #ff8066);
-    max-width: 100%;
-    max-height: 100%
+margin:5px;
+padding:10px;
+border:10px;
+background-color:rgb(248, 249, 209);
+background-image: linear-gradient(to bottom, #4b4453, #5d5665, #6f6877, #827b8a, #958e9e, #a394aa, #b399b4, #c49ebd, #d994b5, #ed8aa3, #fa8288, #ff8066);
+background-size:100%;
+background-position: center;
+max-width: 100%;
+max-height: 100%
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Commissioner:wght@100..900&family=Itim&family=Lexend:wght@100..900&family=Onest:wght@100..900&display=swap');
+
+header{
+    grid-area:auto;
+}
+
+body{
+
+}
+
+h2{
+color: #b399b4;
+}
+
+nav{
+    grid-area: menu;
+    color:#ed8aa3;
+    ul{
+        list-style: none;
+        text-align: center;
+        li{
+            display: inline;
+            margin:1rem ;
+            padding:0rem ;
+            a{
+                text-decoration: none;
+                color: #5d5665;
+            }
+            &
+            a:hover{
+                text-decoration: none;
+                color:#fa8288;
+            }
+        }
     }
-
-    @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Commissioner:wght@100..900&family=Itim&family=Lexend:wght@100..900&family=Onest:wght@100..900&display=swap');
-
-:root{
-    font-size:4px;
-    font-family: "Amarante";
-    font-style: normal;
-    font-weight: 400;
-    max-width: 100%;
-    max-height: 100%
 }
