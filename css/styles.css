@@ -40,7 +40,7 @@ max-height: 100%
 }
 
 
-body{
+#content{
     grid-template-areas: "header"
                     "main"
                     "products"
