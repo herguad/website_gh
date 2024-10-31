@@ -41,15 +41,15 @@ max-height: 100%
 
 
 body{
-grid-template-areas: "header"
+    grid-template-areas: "header"
                     "main"
                     "products"
                     "footer";
-grid-template-rows:auto auto 4vh auto ;
-grid-template-columns: 1fr;
-background-image: linear-gradient(to bottom, #4b4453, #5d5665, #6f6877, #827b8a, #958e9e, #a394aa, #b399b4, #c49ebd, #d994b5, #ed8aa3, #fa8288, #ff8066);
-background-size:100%;
-background-position: center
+    grid-template-rows:auto auto 4vh auto ;
+    grid-template-columns: 1fr;
+    background-image: linear-gradient(to bottom, #4b4453, #5d5665, #6f6877, #827b8a, #958e9e, #a394aa, #b399b4, #c49ebd, #d994b5, #ed8aa3, #fa8288, #ff8066);
+    background-size:100%;
+    background-position: center
 }
 
 h2{
