@@ -11,12 +11,12 @@ max-height: 100%
 
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Commissioner:wght@100..900&family=Itim&family=Lexend:wght@100..900&family=Onest:wght@100..900&display=swap');
 
-header{
+#inicio{
     grid-area:auto;
     color: #fa8288;
 }
 
-nav{
+#nav{
     grid-area: menu;
     color:#ff8066;
     ul{
