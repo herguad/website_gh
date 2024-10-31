@@ -4,6 +4,7 @@ margin:5px;
 padding:10px;
 border:10px;
 background-color:rgb(248, 249, 209);
+border-color: #ff8066;
 max-width: 100%;
 max-height: 100%
 }
@@ -12,9 +13,7 @@ max-height: 100%
 
 header{
     grid-area:auto;
-    background-image: linear-gradient(to bottom, #4b4453, #5d5665, #6f6877, #827b8a, #958e9e, #a394aa, #b399b4, #c49ebd, #d994b5, #ed8aa3, #fa8288, #ff8066);
-    background-size:100%;
-    background-position: center;
+    color: #fa8288;
 }
 
 nav{
@@ -48,7 +47,9 @@ grid-template-areas: "header"
                     "footer";
 grid-template-rows:auto auto 4vh auto ;
 grid-template-columns: 1fr;
-background-color:#c49ebd ;
+background-image: linear-gradient(to bottom, #4b4453, #5d5665, #6f6877, #827b8a, #958e9e, #a394aa, #b399b4, #c49ebd, #d994b5, #ed8aa3, #fa8288, #ff8066);
+background-size:100%;
+background-position: center
 }
 
 h2{
@@ -66,5 +67,5 @@ color:#5d5665;
     padding:1rem;
     background-color:#958e9e;
     font-style:inherit;
-    overflow:visible;
+    overflow:visible
 }
