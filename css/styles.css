@@ -52,3 +52,16 @@ nav{
         }
     }
 }
+
+.container{
+    position: relative;
+    font-size:1rem;
+    text-align: left;
+    height:5%;
+    width:50%;
+    border-color:#4b4453;
+    padding:1rem;
+    background-color:#958e9e;
+    font-style:inherit;
+    overflow:visible;
+}
