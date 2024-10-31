@@ -17,22 +17,9 @@ header{
     background-position: center;
 }
 
-body{
-grid-template-areas: "header"
-                    "main"
-                    "products"
-                    "footer";
-grid-template-rows:auto auto 4vh auto ;
-grid-template-columns: 1fr
-}
-
-h2{
-color: #b399b4;
-}
-
 nav{
     grid-area: menu;
-    color:#ed8aa3;
+    color:#ff8066;
     ul{
         list-style: none;
         text-align: center;
@@ -52,6 +39,22 @@ nav{
         }
     }
 }
+
+
+body{
+grid-template-areas: "header"
+                    "main"
+                    "products"
+                    "footer";
+grid-template-rows:auto auto 4vh auto ;
+grid-template-columns: 1fr;
+background-color:#c49ebd ;
+}
+
+h2{
+color:#5d5665;
+}
+
 
 .container{
     position: relative;
