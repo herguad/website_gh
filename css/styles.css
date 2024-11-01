@@ -23,7 +23,7 @@ background-attachment: fixed
     grid-area: menu;
     color:#6f6877;
     font-size: 2em;
-    border:transparent;
+    border:0.25em;
     text-decoration: none;
     text-align: center;
     border-color: transparent;
@@ -31,6 +31,20 @@ background-attachment: fixed
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    a{
+        text-decoration: none;
+        color:#ed8aa3;
+    }
+    &
+    a:hover{
+        text-decoration: none;
+        color:#b399b4;
+    }
+    &
+    a:active{
+        text-decoration: none;
+        color:#4b4453;
+    }
     ul{
         list-style: none;
         text-align: center;
@@ -39,19 +53,10 @@ background-attachment: fixed
             display: inline;
             margin:1em ;
             padding:0 ;
-            color: #5d5665;
-            a{
-                text-decoration: none;
-                color: #5d5665;
-            }
-            &
-            a:hover{
-                text-decoration: none;
-                color:#ed8aa3;
+            color: #5d5665
             }
         }
     }
-}
 
 h1{
     font-size: 3em;
@@ -70,7 +75,9 @@ h2{
                     "products"
                     "footer";
     grid-template-rows:auto auto 4vh auto ;
-    grid-template-columns: 1fr
+    grid-template-columns: 1fr;
+    font-style: normal;
+    line-height:1.5em;
 }
 
 
@@ -86,3 +93,4 @@ h2{
     font-style:inherit;
     overflow:visible
 }
+
