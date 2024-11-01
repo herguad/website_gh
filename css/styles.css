@@ -1,8 +1,8 @@
 /*website_gh styles*/
 *{
 margin:5px;
-padding:10px;
-border:10px;
+padding:5px;
+border:5px;
 max-width: 100%;
 max-height: 100%
 }
@@ -13,16 +13,27 @@ max-height: 100%
     grid-area:auto;
 }
 
+#left_col{
+    color: #fa8288;
+    text-orientation: upright;
+    font-size: 2em;
+}
+
 #nav{
     grid-area: menu;
-    color:#ff8066;
+    color:#6f6877;
+    font-size: 4em;
+    border-width: 1em;
+    border-color: #d994b5;
     ul{
         list-style: none;
         text-align: center;
+        font-size: 2em;
         li{
             display: inline;
-            margin:1rem ;
+            margin:1em ;
             padding:0rem ;
+            color: #5d5665
             a{
                 text-decoration: none;
                 color: #5d5665;
@@ -30,12 +41,22 @@ max-height: 100%
             &
             a:hover{
                 text-decoration: none;
-                color:#fa8288;
+                color:#ed8aa3;
             }
         }
     }
 }
 
+h1{
+    font-size: 6em;
+    color:#ff8066;
+    background-color:#4b4453;
+    }
+h2{
+    font-size:5em ;
+    color:#5d5665;
+    background-color:#fa8288;
+    }
 
 #content{
     grid-template-areas: "header"
@@ -44,24 +65,21 @@ max-height: 100%
                     "footer";
     grid-template-rows:auto auto 4vh auto ;
     grid-template-columns: 1fr;
+    background-repeat: no-repeat;
     background-image: linear-gradient(to bottom, #4b4453, #5d5665, #6f6877, #827b8a, #958e9e, #a394aa, #b399b4, #c49ebd, #d994b5, #ed8aa3, #fa8288, #ff8066);
     background-size:100%;
     background-position: center
 }
 
-h2{
-color:#5d5665;
-}
-
 
 .container{
     position: relative;
-    font-size:1rem;
+    font-size:1em;
     text-align: left;
     height:5%;
     width:50%;
     border-color:#4b4453;
-    padding:1rem;
+    padding:1em;
     background-color:#958e9e;
     font-style:inherit;
     overflow:visible
