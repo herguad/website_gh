@@ -7,7 +7,8 @@ max-height: 100%;
 background-repeat: no-repeat;
 background-image: linear-gradient(to bottom, #4b4453, #5d5665, #6f6877, #827b8a, #958e9e, #a394aa, #b399b4, #c49ebd, #d994b5, #ed8aa3, #fa8288, #ff8066);
 background-size:cover;
-background-position: center
+background-position: center;
+background-attachment: fixed
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Commissioner:wght@100..900&family=Itim&family=Lexend:wght@100..900&family=Onest:wght@100..900&display=swap');
@@ -26,7 +27,7 @@ background-position: center
     text-decoration: none;
     text-align: center;
     border-color: transparent;
-    background-color: transparent;
+    background-color:#fa8288;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -81,7 +82,7 @@ h2{
     width:50%;
     border-color:#4b4453;
     padding:1em;
-    background-color:transparent;
+    background-color:#b399b4;
     font-style:inherit;
     overflow:visible
 }
