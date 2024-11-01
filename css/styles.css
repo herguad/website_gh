@@ -1,31 +1,30 @@
 /*website_gh styles*/
 *{
 margin:5px;
-padding:5px;
 border:5px;
-font-size: 12;
 max-width: 100%;
 max-height: 100%
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Commissioner:wght@100..900&family=Itim&family=Lexend:wght@100..900&family=Onest:wght@100..900&display=swap');
 
-#inicio{
-    grid-area:auto;
-}
 
-#left_col{
-    color: #fa8288;
-    text-orientation: upright;
-    font-size: 2em;
+#inicio{
+    grid-area:auto
 }
 
 #nav{
     grid-area: menu;
     color:#6f6877;
-    font-size: 4em;
-    border-width: 1em;
+    font-size: 2em;
+    border:transparent;
+    text-decoration: none;
+    text-align: center;
     border-color: #d994b5;
+    background-color: transparent;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     ul{
         list-style: none;
         text-align: center;
@@ -33,7 +32,7 @@ max-height: 100%
         li{
             display: inline;
             margin:1em ;
-            padding:0rem ;
+            padding:0 ;
             color: #5d5665;
             a{
                 text-decoration: none;
@@ -68,10 +67,16 @@ h2{
     grid-template-columns: 1fr;
     background-repeat: no-repeat;
     background-image: linear-gradient(to bottom, #4b4453, #5d5665, #6f6877, #827b8a, #958e9e, #a394aa, #b399b4, #c49ebd, #d994b5, #ed8aa3, #fa8288, #ff8066);
-    background-size:100%;
+    background-size:cover;
     background-position: center
 }
 
+#main{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #4b4453, #5d5665, #6f6877, #827b8a, #958e9e, #a394aa, #b399b4, #c49ebd, #d994b5, #ed8aa3, #fa8288, #ff8066);
+    background-size:cover;
+    background-position: center
+}
 
 .container{
     position: relative;
